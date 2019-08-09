@@ -399,4 +399,84 @@
 			<string>NI.G Core.Color Picker.gcompcache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>ni-g-http-src-1.0.0.13_604.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-g-http-src-1.0.0.13.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.HTTP_4_604.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.HTTP.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Error_6_608.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Error.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Client Handle_23_4_604.gtypecache</string>
+		</key>
+		<value>
+			<string>Client Handle.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>httpWebServerClient_43_4_604.slicache</string>
+		</key>
+		<value>
+			<string>httpWebServerClient.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Error_99_6_608.gtypecache</string>
+		</key>
+		<value>
+			<string>Error.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>httpClient_27_4_604.slicache</string>
+		</key>
+		<value>
+			<string>httpClient.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Occurrence_42_4_604.gtypecache</string>
+		</key>
+		<value>
+			<string>Occurrence.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>error protocol_61_6_608.gtypecache</string>
+		</key>
+		<value>
+			<string>error protocol.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>JSON (call chain)_69_6_608.gtypecache</string>
+		</key>
+		<value>
+			<string>JSON (call chain).gtypecache</string>
+		</value>
+	</item>
 </SerializableDictionary>
