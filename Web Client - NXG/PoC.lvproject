@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="37979EF2F398265305A600FCB43838077C9DA4BFD323B43528E314920464658717DE1B1CE89BED6B247CCA7A9249DF82B55EE178B4929C4CD3EF5D08001BF410" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="02C34D0EA63210723B956CEBD89106550EDD86DAF06FA3AE13D068FBAB307241AAC2F3BD42CEFFA95FA988485246FDF3E48A0037EC007556D1CB98FE4B5AB77D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
@@ -151,10 +151,13 @@
 						<WeakDefaultComponentConfigurationReference Id="ce67a88e1d1c4ecaaf1a89e746caa16a" PackageName="ni-vision-assistanttemplates-src-19.0.0.niaddon" Target="Assistant Templates.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="4c836859f4ca4ab59c69d8ce2d8129e7" PackageName="ni-vision-assistantutilities-src-19.0.0.niaddon" Target="Assistant Utilities.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="b1bec169833648e78b87e5409f936887" PackageName="ni-skyline-taghttp-src-19.0.0.niaddon" Target="TagHTTP.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="672d0a557b2e40dca3041350edf02576" PackageName="ni-daqmx-teststand-api-src-19.0.0.niaddon" Target="TestStand.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="61116ee56534b75a26342ab7627ba5f" PackageName="ni-daqmx-api-src-19.0.0.niaddon" Target="DAQmx.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="c21bec40a277454ea70890a2a0323d43" PackageName="ni-skyline-utilities-src-19.0.0.niaddon" Target="Utilities.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="1a581af25db24e9c8d81d6a7f6d27dd9" PackageName="ni-vision-imaqdx-src-19.0.0.niaddon" Target="IMAQdx.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="34aaa9c1617242cab3f3277dd47ee592" PackageName="ni-vision-imaqdx-src-19.0.0.niaddon" Target="IMAQdx Compatibility.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="5351a991c1f64d169703ee56db61fc0d" PackageName="ni-visa-base-src-18.5.0.niaddon" Target="VISA.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="49e35398f1424c96883d831f6f39ad52" PackageName="ni-xnet-xnet-src-18.5.0.niaddon" Target="xnet.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="b535071775294eeda7b3884341867e8c" PackageName="ni-vision-core-src-19.0.0.niaddon" Target="Controls.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="83a8c6ca8334430a8964bf765f2da215" PackageName="ni-vision-core-src-19.0.0.niaddon" Target="Basics.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="f694c4cc54d6476c9dc57733ef133ce8" PackageName="ni-vision-core-src-19.0.0.niaddon" Target="AVI.gcomp" />
@@ -203,9 +206,6 @@
 						<WeakDefaultComponentConfigurationReference Id="a29cca019d814c4cae570b98d9f1e9cf" PackageName="ni-vision-algorithms-src-19.0.0.niaddon" Target="Machine Vision Tools.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="6a4d5b2ec4c64851be265c0cc7b83a07" PackageName="ni-vision-algorithms-src-19.0.0.niaddon" Target="Algorithms UDR.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="a4e8c80c88dd4dbab6eb933f40f34548" PackageName="ni-vision-algorithms-src-19.0.0.niaddon" Target="Deep Learning.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="a5a70e4c5ded425b8a5a5f5b48f3d621" PackageName="ni-daqmx-teststand-api-src-19.1.0.niaddon" Target="TestStand.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="957a9d18dd0d476cb30f350b7984fea4" PackageName="ni-xnet-xnet-src-19.1.0.niaddon" Target="xnet.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="872253534bb04160b48fd89fc0fdfacc" PackageName="ni-daqmx-api-src-19.1.0.niaddon" Target="DAQmx.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="32" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -222,6 +222,8 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="5feca2f8b18d402f9eff101dac7a4ba1" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-fpga-htmath-src-1.0.0.13.niaddon" StoragePath="ref://ni/fpga/htmath-src/1.0.0.13" />
 						<SourceFileReference Bindings="EnvoyManager" Id="38751d96cd4744a18e31edae0b918684" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-fpga-linearalgebra-src-1.0.0.2.niaddon" StoragePath="ref://ni/fpga/linearalgebra-src/1.0.0.2" />
 						<SourceFileReference Bindings="EnvoyManager" Id="115382d7a1ae47768811c6dc9f12dcef" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-g-websockets-src-1.0.2.0.niaddon" StoragePath="ref://ni/G/websockets-src/1.0.2.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="23a9bd1734324dec8211fcf3dcc91fcd" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-19.0.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/19.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="3fe42a95fc1c47c78a09f8792b4ce4b1" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-teststand-api-src-19.0.0.niaddon" StoragePath="ref://NI/DAQmx/teststand-api-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="1d7cdfb958364f3c87aa94c6450126f6" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keysight344xx-src-17.5.1.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/17.5.1" />
 						<SourceFileReference Bindings="EnvoyManager" Id="8597a38539b942b29e1de2aeddc00946" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-mxlc-base-src-18.5.0.niaddon" StoragePath="ref://NI/MXLC/Base-src/18.5.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="def05a9fcd244d598b3bb5f11a2f8ca9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-nisync-base-src-18.5.0.niaddon" StoragePath="ref://NI/niSync/Base-src/18.5.0" />
@@ -236,9 +238,7 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="e94a79e6d70419bb39f9b5abe246a32" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-assistantutilities-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/AssistantUtilities-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="2622ec0073ff47b3bd4a3de5853fc716" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-core-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/Core-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="54a0a9dda69c4b7ab5d28800d3381c76" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-imaqdx-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/IMAQdx-src/19.0.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="3f9408f59dee4bd886e12882cbbdb9e6" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-19.1.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/19.1.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="5cbbca026757493caeaf4c40163531c4" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-teststand-api-src-19.1.0.niaddon" StoragePath="ref://NI/DAQmx/teststand-api-src/19.1.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="a7886a7662cf4f5b9cdda4fd7a6d5b99" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-19.1.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/19.1.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="6ba58e10bc5b4413b27cd5fc59d4bfb8" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-18.5.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/18.5.0" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library" Id="33" ModelDefinitionType="SparseEnvoyManager" Name="Default Component" Reparentable="False">
 						<SparseEnvoyManager Id="34">
@@ -370,10 +370,13 @@
 						<WeakDefaultComponentConfigurationReference Id="cff842c019dd4503b42cb5abd2947fec" PackageName="ni-vision-assistanttemplates-src-19.0.0.niaddon" Target="Assistant Templates.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="23bd463570174a138f6c9111b8b07fac" PackageName="ni-vision-assistantutilities-src-19.0.0.niaddon" Target="Assistant Utilities.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="3f9e05c3c4b14bbda6bd9fd270c53a17" PackageName="ni-skyline-taghttp-src-19.0.0.niaddon" Target="TagHTTP.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="cf1beecdb9374386bbb4e91401d7fffe" PackageName="ni-daqmx-teststand-api-src-19.0.0.niaddon" Target="TestStand.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="b56d1c69afd54238983d11571ac88353" PackageName="ni-daqmx-api-src-19.0.0.niaddon" Target="DAQmx.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="9646a721a7f44d0db5b21da91b1521a9" PackageName="ni-skyline-utilities-src-19.0.0.niaddon" Target="Utilities.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="8348159614dd47329020bda1a926428a" PackageName="ni-vision-imaqdx-src-19.0.0.niaddon" Target="IMAQdx.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="a1041c116ef14c698db2e52c410c4188" PackageName="ni-vision-imaqdx-src-19.0.0.niaddon" Target="IMAQdx Compatibility.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="f04fb94ca632495a9aafbe5ec50dd3d6" PackageName="ni-visa-base-src-18.5.0.niaddon" Target="VISA.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="c080030456e343ebac9f79b5e8350c3b" PackageName="ni-xnet-xnet-src-18.5.0.niaddon" Target="xnet.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="16ba901959494f70b7688a8830411508" PackageName="ni-vision-core-src-19.0.0.niaddon" Target="Controls.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="22d6712288a24860955629472ce95e25" PackageName="ni-vision-core-src-19.0.0.niaddon" Target="Basics.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="36d23c9d993f4aee9f2facd509043a48" PackageName="ni-vision-core-src-19.0.0.niaddon" Target="AVI.gcomp" />
@@ -422,9 +425,6 @@
 						<WeakDefaultComponentConfigurationReference Id="8e44e1cbc0ee49e1bfd63fda1b936ef8" PackageName="ni-vision-algorithms-src-19.0.0.niaddon" Target="Machine Vision Tools.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="2059867c92064d5ba45daf420a0bce57" PackageName="ni-vision-algorithms-src-19.0.0.niaddon" Target="Algorithms UDR.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="a6cbe3a055aa4580b1ee2827085492d5" PackageName="ni-vision-algorithms-src-19.0.0.niaddon" Target="Deep Learning.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="fc7476bff8994cb5b42f311519be2c6c" PackageName="ni-daqmx-teststand-api-src-19.1.0.niaddon" Target="TestStand.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="c6f5ab557b1d45cd9e4ddcf37aae907b" PackageName="ni-xnet-xnet-src-19.1.0.niaddon" Target="xnet.gcomp" />
-						<WeakDefaultComponentConfigurationReference Id="3079535450c141d3908fc2e0985632ca" PackageName="ni-daqmx-api-src-19.1.0.niaddon" Target="DAQmx.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="550" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -449,15 +449,15 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="6fc6120824dc409db10885ba94019dae" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-assistanttemplates-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/AssistantTemplates-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="84c89dad98e04f2f8f06e5b796484930" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-assistantutilities-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/AssistantUtilities-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="416ee981226c4f8493cd0c4b1f88a389" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-taghttp-src-19.0.0.niaddon" StoragePath="ref://NI/Skyline/taghttp-src/19.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="1ab668cb156b450191851b22bab6e3b5" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-teststand-api-src-19.0.0.niaddon" StoragePath="ref://NI/DAQmx/teststand-api-src/19.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="71fe1545bf1491d807914f39628bd54" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-19.0.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="cfc7fe2325234e6a88202e1764165bd4" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-utilities-src-19.0.0.niaddon" StoragePath="ref://NI/Skyline/utilities-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="5e27a8c3773d4baa928fe097380544ef" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-imaqdx-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/IMAQdx-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="2b86b9b23b7f44889d7ae0eeb080db08" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-visa-base-src-18.5.0.niaddon" StoragePath="ref://NI/VISA/Base-src/18.5.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="ba06d52268a6454aa916c2d4b0ee75d0" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-18.5.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/18.5.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="9b65039862f64c6cb1e6b74f9eaa00c8" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-core-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/Core-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="bedfd94bc7a5498b8b928228ee7d8cf8" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-skyline-json-src-19.0.0.niaddon" StoragePath="ref://NI/Skyline/json-src/19.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="7d335fa8fd3843008b11521c3a35f6c6" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-algorithms-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/Algorithms-src/19.0.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="6c2f6ed4c2714edaa9d079d37e6b34d6" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-teststand-api-src-19.1.0.niaddon" StoragePath="ref://NI/DAQmx/teststand-api-src/19.1.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="f4b77fdb21d44849a070834f07266de5" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-19.1.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/19.1.0" />
-						<SourceFileReference Bindings="EnvoyManager" Id="d291bda690f948fb96145d06213ea0fa" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-19.1.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/19.1.0" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library" Id="643" ModelDefinitionType="SparseEnvoyManager" Name="Default Component" Reparentable="False">
 						<SparseEnvoyManager Id="644">
@@ -539,15 +539,15 @@
 					<PackageInterfaceDefinitionContents Contents="Assistant Templates.gcomp" Id="62e4c145d8054f4c83c5f9bc910e2e15" PackageInterfaceDefinitionEnvoyId="dc2131de8b344881a99c43c32f8f697a" />
 					<PackageInterfaceDefinitionContents Contents="Assistant Utilities.gcomp" Id="d25709912e374ee69c8b553ebd8f49ee" PackageInterfaceDefinitionEnvoyId="6adb191e82e147c0bf435998329e1e5f" />
 					<PackageInterfaceDefinitionContents Contents="TagHTTP.gcomp" Id="7f5aa6472e78489d8d23116be641fb49" PackageInterfaceDefinitionEnvoyId="9e3e7c7007fa4b87b29d22fb4708c861" />
+					<PackageInterfaceDefinitionContents Contents="TestStand.gcomp" Id="d31f1355a11140df9295028806a93c0d" PackageInterfaceDefinitionEnvoyId="30a50319492a43fd8032f1e9b98f5528" />
+					<PackageInterfaceDefinitionContents Contents="DAQmx.gcomp" Id="5bda5823d9a04594b59d46aa0cb926a1" PackageInterfaceDefinitionEnvoyId="4b0fe7793c9349e1a69928ba64fc35e6" />
 					<PackageInterfaceDefinitionContents Contents="Utilities.gcomp" Id="5962977a70494ff4bc71613d435148fa" PackageInterfaceDefinitionEnvoyId="f5d9fde0ed19483ab6ae1149b2da9be8" />
 					<PackageInterfaceDefinitionContents Contents="IMAQdx.gcomp,IMAQdx Compatibility.gcomp" Id="b24264cd0a9a43a5be34ecbd12e51ef1" PackageInterfaceDefinitionEnvoyId="5f1337dcba2540c9b0d587bd1df39928" />
 					<PackageInterfaceDefinitionContents Contents="VISA.gcomp" Id="5248dc6587cd4eb695f5f12d49b27148" PackageInterfaceDefinitionEnvoyId="3cb70fb791824716b2b174e7e4323f1e" />
+					<PackageInterfaceDefinitionContents Contents="xnet.gcomp" Id="eb00f9c10d8344c9927fce9c3069541f" PackageInterfaceDefinitionEnvoyId="d3eebd54c1b64e74b178a1c97823ebbc" />
 					<PackageInterfaceDefinitionContents Contents="Controls.gcomp,Basics.gcomp,AVI.gcomp,AVI DirectShow.gcomp,Display.gcomp,Display ROI.gcomp,Display Tools.gcomp,Files.gcomp,Overlay.gcomp,RT.gcomp,EDVR.gcomp,Core UDR.gcomp" Id="8d32d3ce6e5a4586bf142a425e7861b6" PackageInterfaceDefinitionEnvoyId="427c511f535a422aa0f24ef8f96ec74a" />
 					<PackageInterfaceDefinitionContents Contents="JSON.gcomp" Id="2373509762034f1da4cb9511da187488" PackageInterfaceDefinitionEnvoyId="6bc46c37bd2f4481ad0863757330194d" />
 					<PackageInterfaceDefinitionContents Contents="Analytic.gcomp,Browser.gcomp,Classification.gcomp,Color.gcomp,Compatibility.gcomp,Complex.gcomp,Ext Lib Support.gcomp,Feature Matching.gcomp,Filters.gcomp,Image Manipulation.gcomp,Measure.gcomp,Morphology.gcomp,Motion Estimation.gcomp,Operator.gcomp,Pattern Matching.gcomp,Pixel Manipulation.gcomp,Processing.gcomp,ROI Conversion.gcomp,ROI Selection.gcomp,ROI Tools.gcomp,Stereo.gcomp,Texture.gcomp,Color Processing.gcomp,Analysis.gcomp,Calibration.gcomp,Contour.gcomp,FPGA Utilities.gcomp,Instrument.gcomp,Shape Detection.gcomp,Tracking.gcomp,OCR.gcomp,Inspection.gcomp,Machine Vision Tools.gcomp,Algorithms UDR.gcomp,Deep Learning.gcomp" Id="da2a4bac3d094965bbc801db04639b5b" PackageInterfaceDefinitionEnvoyId="d4e0902cefa545df9caf91447be000da" />
-					<PackageInterfaceDefinitionContents Contents="TestStand.gcomp" Id="c1847df7825f44ecb4fc2b2380e9d157" PackageInterfaceDefinitionEnvoyId="9782705b5a704b14ad14ed81e0dbce53" />
-					<PackageInterfaceDefinitionContents Contents="xnet.gcomp" Id="cdbf0817514f408fb3c9bdfd02a6d1c3" PackageInterfaceDefinitionEnvoyId="e766376d508044b58c072a7e4487fa64" />
-					<PackageInterfaceDefinitionContents Contents="DAQmx.gcomp" Id="805f05542cb943b0afdb962f656ca09b" PackageInterfaceDefinitionEnvoyId="99e350a67db14a48b6db6baf4f15cc07" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="EnvoyManager" Id="313" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-analysis-advanced-src-1.0.8.2.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.8.2" />
 				<SourceFileReference Bindings="EnvoyManager" Id="315" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-analysis-basic-src-1.0.8.1.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.8.1" />
@@ -562,6 +562,8 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="d2a05ff8dd664b018e073067d5134143" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-fpga-htmath-src-1.0.0.13.niaddon" StoragePath="ref://ni/fpga/htmath-src/1.0.0.13" />
 				<SourceFileReference Bindings="EnvoyManager" Id="94e97b1e8934a558441e264ec784680" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-fpga-linearalgebra-src-1.0.0.2.niaddon" StoragePath="ref://ni/fpga/linearalgebra-src/1.0.0.2" />
 				<SourceFileReference Bindings="EnvoyManager" Id="80e7d3ddc7e24cfab903c45d64640eb5" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-g-websockets-src-1.0.2.0.niaddon" StoragePath="ref://ni/G/websockets-src/1.0.2.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="4b0fe7793c9349e1a69928ba64fc35e6" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-19.0.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/19.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="30a50319492a43fd8032f1e9b98f5528" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-teststand-api-src-19.0.0.niaddon" StoragePath="ref://NI/DAQmx/teststand-api-src/19.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="61df1309cfd645ffae833699d5ba6588" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-instrumentdriver-keysight344xx-src-17.5.1.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/17.5.1" />
 				<SourceFileReference Bindings="EnvoyManager" Id="eb9fcdea9183407db430c87cfdedc4a1" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-mxlc-base-src-18.5.0.niaddon" StoragePath="ref://NI/MXLC/Base-src/18.5.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="2515c79664e343d1937bd4294549ee1d" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-nisync-base-src-18.5.0.niaddon" StoragePath="ref://NI/niSync/Base-src/18.5.0" />
@@ -576,9 +578,7 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="6adb191e82e147c0bf435998329e1e5f" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-assistantutilities-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/AssistantUtilities-src/19.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="427c511f535a422aa0f24ef8f96ec74a" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-core-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/Core-src/19.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="5f1337dcba2540c9b0d587bd1df39928" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-imaqdx-src-19.0.0.niaddon" StoragePath="ref://NI/Vision/IMAQdx-src/19.0.0" />
-				<SourceFileReference Bindings="EnvoyManager" Id="99e350a67db14a48b6db6baf4f15cc07" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-api-src-19.1.0.niaddon" StoragePath="ref://NI/DAQmx/api-src/19.1.0" />
-				<SourceFileReference Bindings="EnvoyManager" Id="9782705b5a704b14ad14ed81e0dbce53" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-daqmx-teststand-api-src-19.1.0.niaddon" StoragePath="ref://NI/DAQmx/teststand-api-src/19.1.0" />
-				<SourceFileReference Bindings="EnvoyManager" Id="e766376d508044b58c072a7e4487fa64" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-19.1.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/19.1.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="d3eebd54c1b64e74b178a1c97823ebbc" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-18.5.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/18.5.0" />
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</Project>
