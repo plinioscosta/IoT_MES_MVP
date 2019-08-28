@@ -56,18 +56,48 @@
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
-			<Item Name="Public Content" Type="Folder" URL="../../Web Client - NXG/Builds/WebApp_Web Server">
+			<Item Name="Public Content" Type="Folder" URL="../WebApp_Web Server">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 			<Item Name="Web Resources" Type="HTTP WebResources Container">
-				<Item Name="ServiceOrderQRcode (Get).vi" Type="VI" URL="../ServiceOrderQRcode (Get).vi">
+				<Item Name="PollData(Synch).vi" Type="VI" URL="../PollData(Synch).vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.outputFormat" Type="Int">2</Property>
+					<Property Name="ws.outputType" Type="Int">1</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
+				<Item Name="ServiceOrderBarcode (Get).vi" Type="VI" URL="../ServiceOrderBarcode (Get).vi">
 					<Property Name="ws.buffered" Type="Bool">true</Property>
 					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
 					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
 					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
 					<Property Name="ws.method" Type="Int">1</Property>
 					<Property Name="ws.outputFormat" Type="Int">4</Property>
+					<Property Name="ws.outputType" Type="Int">1</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
+				<Item Name="ToolBarcode (Get).vi" Type="VI" URL="../ToolBarcode (Get).vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.outputFormat" Type="Int">2</Property>
 					<Property Name="ws.outputType" Type="Int">1</Property>
 					<Property Name="ws.permissions" Type="Str"></Property>
 					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
@@ -160,7 +190,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/WebService/Web Resources/ServiceOrderQRcode (Get).vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/WebService/Web Resources/ServiceOrderBarcode (Get).vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
