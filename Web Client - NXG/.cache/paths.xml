@@ -479,4 +479,52 @@
 			<string>JSON (call chain).gtypecache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>ni-daqmx-teststand-api-src-19.1.0_ae84480b9ad941bc92aae11e673365e4.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-daqmx-teststand-api-src-19.1.0.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-daqmx-api-src-19.1.0_2c3f04e1e8f24f2fbd68df48f928da10.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-daqmx-api-src-19.1.0.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-xnet-xnet-src-19.1.0_e4a51caacc4f478d911c056205027c6e.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-xnet-xnet-src-19.1.0.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-daqmx-teststand-api-src-19.1.0_602144162d4741fab32f9e6d93034380.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-daqmx-teststand-api-src-19.1.0_1.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-xnet-xnet-src-19.1.0_62fdbf5f755b4ec2ac6e06a78f7c3559.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-xnet-xnet-src-19.1.0_1.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-daqmx-api-src-19.1.0_ed29e3e8d2214d4d9795efb12c0def2b.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-daqmx-api-src-19.1.0_1.niaddoncache</string>
+		</value>
+	</item>
 </SerializableDictionary>
