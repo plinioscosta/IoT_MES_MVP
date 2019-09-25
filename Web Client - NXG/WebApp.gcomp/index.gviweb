@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D6E7766A6FBA18E007AB5734540E215967B0B959B3D0075D722A53C991A81D57A861D6FC19BE4CF88F83D083E09523F6C27A5B66F91E1A15EC2CDC7898814F8A" Timestamp="1D5643ED0491116" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="18A9D20E54D3CDBFCD8D706778C82962AA8FADF1C0F4387519241A081B02B9F4F16E900B6163453119798EE1F130A64DE7C3569407F80D9AE77B3968CC92DC2F" Timestamp="1D573BBF9A3D884" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -47,7 +47,7 @@
 			<WhileLoop Bounds="82 200 1165 555" DiagramId="2d2cf3dd18c148669d35164123546063" Id="f65c2d3874c2489fa1591f7835750866">
 				<LoopIteration Bounds="5 525 15 15" Id="a1ddc00a7d904b8bb15bc295d80dfe3b" />
 				<LoopCondition Bounds="1000 505 15 15" Id="b88bbaa365ed496cbf9880b80eba6c1b" />
-				<EventStructure Bounds="62 10 1068 443" Id="9e1351d5ea5d4ba5bd08bc7331f3b96b" Selected="a37bc3d5679a409f91bc2196d0de746f" UserSelectorBounds="20 0 1028 17">
+				<EventStructure Bounds="62 10 1068 443" Id="9e1351d5ea5d4ba5bd08bc7331f3b96b" Selected="57db230a0f354962a1212bfc118ab800" UserSelectorBounds="20 0 1028 17">
 					<EventStructure.EventCase Bounds="21 18 1026 417" Id="8f8b4a9b098b46fb8838399bdc9dfe65">
 						<EventStructure.EventData Bounds="0 17 92 50" HasErrorTerminals="False" Id="91a6cc04f3084e369c1c29602b1f4826" InstanceDataType="@216ebb95f8d94137bfbbcb8a7886ff9f" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Source,Type,Time,Index,Ref Id,Control Reference,Old Value,New Value">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
@@ -200,7 +200,7 @@
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<Literal Bounds="88 122 12 9" DataType="String" Id="f008b0343d1d49b0a83d90c6bcb2990c" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>http://192.168.15.14:8001/WebService/PollData(Synch)</p.Data>
+							<p.Data>http://10.48.0.67:8001/WebService/PollData(Synch)</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 							<DockedConstantFacade UndockedSize="320 15" />
 						</Literal>
@@ -384,8 +384,8 @@
 						<NodeLabel AttachedTo="357a6ee9d90948b0a7c0f6a0271e0f1e" Bounds="109 322 81 14" Id="bc7fe476a53240b9a41c2c1921ce3f8a" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Temperature 1</p.Text>
 						</NodeLabel>
-						<Literal Bounds="110 252 360 15" DataType="String" Id="3af2b6d27fa14088a7c7210a80fbcb15" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>http://192.168.15.14:8001/WebService/Temperature1(Post)</p.Data>
+						<Literal Bounds="130 252 340 15" DataType="String" Id="3af2b6d27fa14088a7c7210a80fbcb15" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>http://10.48.0.67:8001/WebService/Temperature1(Post)</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 						<Wire Id="85037ea1f5d442f6a8134cbd67996645" Joints="N(3af2b6d27fa14088a7c7210a80fbcb15:Out)|(470,257) N(d5f1016bee104d3fb1facce5427df117:L1)|(570,257)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -438,8 +438,8 @@
 						<NodeLabel AttachedTo="79efe0c8bd464f7681477f99585b5987" Bounds="229 277 81 14" Id="11a3ead92b184a5aac495811fa4c57cb" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Temperature 2</p.Text>
 						</NodeLabel>
-						<Literal Bounds="230 207 360 15" DataType="String" Id="2f9e4a0f0fa7409aae7b92c718bccd21" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>http://192.168.15.14:8001/WebService/Temperature2(Post)</p.Data>
+						<Literal Bounds="250 207 340 15" DataType="String" Id="2f9e4a0f0fa7409aae7b92c718bccd21" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>http://10.48.0.67:8001/WebService/Temperature2(Post)</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 						<Wire Id="f0b84200997b4836aadd72ef7c3afd8a" Joints="N(2f9e4a0f0fa7409aae7b92c718bccd21:Out)|(590,212) N(5a4508e20b942bfbafd877bae01db3e:L1)|(690,212)" xmlns="http://www.ni.com/PlatformFramework" />
