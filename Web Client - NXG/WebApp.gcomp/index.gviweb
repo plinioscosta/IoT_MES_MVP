@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="18A9D20E54D3CDBFCD8D706778C82962AA8FADF1C0F4387519241A081B02B9F4F16E900B6163453119798EE1F130A64DE7C3569407F80D9AE77B3968CC92DC2F" Timestamp="1D573BBF9A3D884" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6C76E1E1D3A76D01D38F607F6BC5C7B1155628B7EA84666FDBED95F329476B30A97C7F6B9565D0B3978DD95CE9481B0ED600C2B84057616BC7FFFA6A77D7D650" Timestamp="1D5883B1E1A3A51" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -95,7 +95,7 @@
 							<p.Text>Ordem de serviço</p.Text>
 						</NodeLabel>
 						<Literal Bounds="90 157 385 15" DataType="String" Id="a1b6bdefcd394850bc71419ed819e107" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>http://10.48.0.67:8001/WebService/ServiceOrderBarcode_(Get)</p.Data>
+							<p.Data>http://10.48.0.56:8001/WebService/ServiceOrderBarcode_(Get)</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 						<Wire Id="1c8893d0d51a4631b8f036dc53fb99ff" Joints="N(a1b6bdefcd394850bc71419ed819e107:Out)|(475,162) h(5) v(-35) N(e8e91a22a32448558f02a3f215187210:L1)|(485,127)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -149,7 +149,7 @@
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<Literal Bounds="155 182 335 15" DataType="String" Id="69a81ccb368f4b1f8296b2f07a064626" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>http://10.48.0.67:8001/WebService/ToolBarcode_(Get)</p.Data>
+							<p.Data>http://10.48.0.56:8001/WebService/ToolBarcode_(Get)</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 						<Wire Id="b9004fed26e644cdb769672a74817471" Joints="N(69a81ccb368f4b1f8296b2f07a064626:Out)|(490,187) h(5) v(-35) N(7528672c498c4347bd61338a1fc607d6:L1)|(500,152)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -200,7 +200,7 @@
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<Literal Bounds="88 122 12 9" DataType="String" Id="f008b0343d1d49b0a83d90c6bcb2990c" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>http://10.48.0.67:8001/WebService/PollData(Synch)</p.Data>
+							<p.Data>http://10.48.0.56:8001/WebService/PollData(Synch)</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 							<DockedConstantFacade UndockedSize="320 15" />
 						</Literal>
@@ -385,7 +385,7 @@
 							<p.Text>Temperature 1</p.Text>
 						</NodeLabel>
 						<Literal Bounds="130 252 340 15" DataType="String" Id="3af2b6d27fa14088a7c7210a80fbcb15" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>http://10.48.0.67:8001/WebService/Temperature1(Post)</p.Data>
+							<p.Data>http://10.48.0.56:8001/WebService/Temperature1(Post)</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 						<Wire Id="85037ea1f5d442f6a8134cbd67996645" Joints="N(3af2b6d27fa14088a7c7210a80fbcb15:Out)|(470,257) N(d5f1016bee104d3fb1facce5427df117:L1)|(570,257)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -439,7 +439,7 @@
 							<p.Text>Temperature 2</p.Text>
 						</NodeLabel>
 						<Literal Bounds="250 207 340 15" DataType="String" Id="2f9e4a0f0fa7409aae7b92c718bccd21" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>http://10.48.0.67:8001/WebService/Temperature2(Post)</p.Data>
+							<p.Data>http://10.48.0.56:8001/WebService/Temperature2(Post)</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 						<Wire Id="f0b84200997b4836aadd72ef7c3afd8a" Joints="N(2f9e4a0f0fa7409aae7b92c718bccd21:Out)|(590,212) N(5a4508e20b942bfbafd877bae01db3e:L1)|(690,212)" xmlns="http://www.ni.com/PlatformFramework" />

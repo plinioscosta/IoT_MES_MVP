@@ -687,4 +687,52 @@
 			<string>ni-daqmx-api-src-19.1.0_7.niaddoncache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>ni-xnet-xnet-src-19.1.0_5fffc210643f497e9fc35c3dc59e532c.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-xnet-xnet-src-19.1.0_8.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-daqmx-teststand-api-src-19.1.0_333e32797e5b4f918b78b1dd5c934f9c.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-daqmx-teststand-api-src-19.1.0_8.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-daqmx-api-src-19.1.0_f5dee94371ab4b41be105f6ab7ca5882.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-daqmx-api-src-19.1.0_8.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-xnet-xnet-src-19.1.0_e0ec4a717a2c4cb196b834f1b9bc1fea.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-xnet-xnet-src-19.1.0_9.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-daqmx-teststand-api-src-19.1.0_bebb84c72a6f4f39bace15087683124a.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-daqmx-teststand-api-src-19.1.0_9.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-daqmx-api-src-19.1.0_a32194656c5349c883f536edce4f1da8.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-daqmx-api-src-19.1.0_9.niaddoncache</string>
+		</value>
+	</item>
 </SerializableDictionary>
